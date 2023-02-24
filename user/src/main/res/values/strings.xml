@@ -1,0 +1,35 @@
+<resources>
+    <string name="Correo">Correo</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Iniciar_sesión">Iniciar sesión</string>
+    <string name="nombre">Nombre</string>
+    <string name="ventas_universitarias">Ventas universitarias</string>
+    <string name="question">¿Qué antojo tienes hoy?</string>
+    <string name="store">Nombre de la tienda</string>
+    <string name="calificación">Calificación</string>
+    <string name="food">Nombre de comida</string>
+    <string name="pagar">Pagar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="telefono">Teléfono</string>
+
+    <string name="opciones">Opciones usuario</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="pedidos">Pedidos en marcha</string>
+    <string name="info">Informacion del usuario</string>
+    <string name="history">Historial de pedidos</string>
+    <string name="categoty">Categorías</string>
+    <string name="bebida">Bebidas</string>
+    <string name="snacks">Snacks</string>
+    <string name="foodname">Comida</string>
+    <string name="popular">Populares</string>
+
+    <string name="client_info_title">Tu información</string>
+    <string name="client_update">Actualizar</string>
+    <string name="client_email">Correo</string>
+    <string name="client_email_current">Correo actual</string>
+    <string name="client_phone">Teléfono</string>
+    <string name="client_phone_current">Teléfono actual</string>
+    <string name="client_name">Nombre</string>
+    <string name="client_name_current">Nombre actual</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Ventas Universitarias - Admin</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_correo">Correo</string>
+    <string name="login_contraseña">Contraseña</string>
+    <string name="login_iniciar">Iniciar</string>
+
+    <string name="home_title">Inicio</string>
+    <string name="home_tiendas">Tiendas</string>
+    <string name="home_usuarios">Usuarios</string>
+    <string name="home_cerrar_sesión">Cerrar sesión</string>
+
+    <string name="tiendas_title">Tiendas</string>
+    <string name="tiendas_nombre">Nombre</string>
+    <string name="tiendas_horario">Horario</string>
+    <string name="tiendas_crear_tienda">Crear tienda</string>
+
+    <string name="tienda_title">Tienda</string>
+    <string name="tienda_nombre">Nombre</string>
+    <string name="tienda_imagen_principal">Imagen principal</string>
+    <string name="tienda_imagen_banner">Imagen banner</string>
+    <string name="tienda_descripcion">Descripción</string>
+    <string name="tienda_ubicacion">Ubicación</string>
+    <string name="tienda_horario">Horario</string>
+    <string name="tienda_deshabilitar">Deshabilitar</string>
+    <string name="tienda_actualizar">Actualizar</string>
+
+    <string name="crear_tienda_title">Crear tienda</string>
+    <string name="crear_tienda_nombre">Nombre</string>
+    <string name="crear_tienda_imagen_principal">Imagen principal</string>
+    <string name="crear_tienda_imagen_banner">Imagen banner</string>
+    <string name="crear_tienda_descripcion">Descripción</string>
+    <string name="crear_tienda_ubicacion">Ubicación</string>
+    <string name="crear_tienda_horario">Horario</string>
+    <string name="crear_tienda_crear">Crear</string>
+
+    <string name="vendedores_title">Vendedores</string>
+    <string name="vendedores_nombre">Nombre</string>
+    <string name="vendedores_tienda">Tienda</string>
+    <string name="vendedores_crear_usuario">Crear usuario</string>
+
+    <string name="vendedor_title">Vendedor</string>
+    <string name="vendedor_nombre">Nombre</string>
+    <string name="vendedor_telefono">Télefono</string>
+    <string name="vendedor_correo">Correo</string>
+    <string name="vendedor_contraseña">Contraseña</string>
+    <string name="vendedor_imagen">Imagen</string>
+    <string name="vendedor_actualizar">Actualizar</string>
+
+    <string name="crear_vendedor_title">Crear vendedor</string>
+    <string name="crear_vendedor_nombre">Nombre</string>
+    <string name="crear_vendedor_telefono">Télefono</string>
+    <string name="crear_vendedor_correo">Correo</string>
+    <string name="crear_vendedor_contraseña">Contraseña</string>
+    <string name="crear_vendedor_imagen">Imagen</string>
+    <string name="crear_vendedor_tienda">Tienda</string>
+    <string name="crear_vendedor_crear">Crear</string>
+
+    <string name="placeholder"></string>
+</resources>

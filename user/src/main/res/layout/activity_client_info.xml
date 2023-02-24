@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_color"
+    tools:context=".ClientInfoActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarInfoEdit"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/dark_primary"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ibBackEditClientInfo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/atras"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tvEditClientTitle"
+        style="@style/screen_title_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/client_info_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbarInfoEdit" />
+
+    <ImageView
+        android:id="@+id/ivEditClient"
+        style="@style/client_info_pfp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEditClientTitle"
+        app:srcCompat="@drawable/usuario" />
+
+    <Button
+        android:id="@+id/btnEditClientUpdate"
+        style="@style/btn_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/client_update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibEditClientPFP"
+        style="@style/edit_user_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEditClient"
+        app:layout_constraintEnd_toEndOf="@+id/ivEditClient"
+        app:layout_constraintTop_toBottomOf="@+id/ivEditClient"
+        app:srcCompat="@drawable/editar" />
+
+    <TextView
+        android:id="@+id/tvEditClientName"
+        style="@style/seller_input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/client_name"
+        app:layout_constraintStart_toStartOf="@+id/etEditClientName"
+        app:layout_constraintTop_toBottomOf="@+id/ivEditClient" />
+
+    <EditText
+        android:id="@+id/etEditClientName"
+        style="@style/input_box_client_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/client_name_current"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEditClientName" />
+
+    <TextView
+        android:id="@+id/tvEditClientPhone"
+        style="@style/seller_input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/client_phone"
+        app:layout_constraintStart_toStartOf="@+id/etEditClientPhone"
+        app:layout_constraintTop_toBottomOf="@+id/etEditClientName" />
+
+    <EditText
+        android:id="@+id/etEditClientPhone"
+        style="@style/input_box_client_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/client_phone_current"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEditClientPhone" />
+
+    <EditText
+        android:id="@+id/etEditClientMail"
+        style="@style/input_box_client_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/client_email_current"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEditClientMail" />
+
+    <TextView
+        android:id="@+id/tvEditClientMail"
+        style="@style/seller_input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/client_email"
+        app:layout_constraintStart_toStartOf="@+id/etEditClientMail"
+        app:layout_constraintTop_toBottomOf="@+id/etEditClientPhone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

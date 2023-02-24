@@ -1,0 +1,117 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VentasUniversitarias" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="clientYellow" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary</item>
+        <item name="colorOnPrimary">@color/primary_text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_color</item>
+        <item name="colorSecondaryVariant">@color/light_light_color</item>
+        <item name="colorOnSecondary">@color/secondary_text</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_primary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="inputBox">
+        <item name="android:background">@drawable/bg_rounded</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+
+    <style name="input_box_client_info">
+        <item name="android:background">@drawable/input_box_rounded_square</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:width">280dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textColor">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="screen_title" parent="textColor">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+    <style name="screen_subtitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="screen_title_toolbar" parent="screen_title">
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="main_image">
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="btn_client">
+        <item name="android:background">@drawable/btn_clt_main</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:width">250dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+    </style>
+
+    <style name="btn_client_small" parent="btn_client">
+        <item name="android:width">130dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="seller_input_label">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="msg_seller">
+        <item name="android:background">@drawable/msg_rounded</item>
+    </style>
+
+    <style name="edit_user_btn">
+        <item name="android:background">@drawable/btn_cte_round_circle</item>
+    </style>
+
+    <style name="btn_add_remove">
+        <item name="android:background">@drawable/bg_add_remove</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:width">20dp</item>
+    </style>
+
+    <style name="client_info_pfp" parent="main_image">
+        <item name="android:background">@drawable/bg_client_userpfp</item>
+        <item name="android:padding">25dp</item>
+    </style>
+
+
+</resources>

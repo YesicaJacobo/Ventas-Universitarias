@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VentasUniversitarias</string>
+
+    <string name="client_info_title">Tu información</string>
+    <string name="client_update">Actualizar</string>
+    <string name="client_email">Correo</string>
+    <string name="client_email_current">Correo actual</string>
+    <string name="client_phone">Teléfono</string>
+    <string name="client_phone_current">Teléfono actual</string>
+    <string name="client_name">Nombre</string>
+    <string name="client_name_current">Nombre actual</string>
+</resources>
